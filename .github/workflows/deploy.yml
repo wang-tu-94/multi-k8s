@@ -25,7 +25,7 @@
           - name: Set Identity Provider
             uses: "google-github-actions/auth@v2"
             with:
-              workload_identity_provider: "projects/699344562788/locations/global/workloadIdentityPools/github/attribute.repository/wang-tu-94/multi-k8s"
+              workload_identity_provider: "projects/699344562788/locations/global/workloadIdentityPools/github/providers/multi-k8s"
      
           - name: Set Project
             uses: google-github-actions/setup-gcloud@v2
